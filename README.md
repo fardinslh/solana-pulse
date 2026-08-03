@@ -8,6 +8,11 @@ SolanaPulse produces an automatically updating report on Solana network health, 
 
 The default pipeline uses public endpoints and needs no API keys.
 
+**Live demo:** [solana-pulse.fardinparadise.chatgpt.site](https://solana-pulse.fardinparadise.chatgpt.site)
+
+- [Live JSON report](https://solana-pulse.fardinparadise.chatgpt.site/api/report?format=json)
+- [Live Markdown report](https://solana-pulse.fardinparadise.chatgpt.site/api/report?format=markdown)
+
 ## What the report covers
 
 | Area | Metrics |
@@ -143,6 +148,12 @@ Dune API extraction and X sentiment need credentials or a licensed feed. The key
 Tokenized equity TVL is available through xStocks. Per-asset equity trading volume needs an indexed trade dataset.
 
 ## Deploy
+
+The public demo runs as an OpenNext worker on Cloudflare. Reproduce its deployment artifact with:
+
+```bash
+npm run build:sites
+```
 
 Vercel can deploy the project without configuration:
 
