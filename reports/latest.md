@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated: 2026-08-16T18:49:48.920Z
+Generated: 2026-08-17T01:58:08.176Z
 
 Overall collector state: **OK**
 
@@ -8,28 +8,28 @@ Overall collector state: **OK**
 
 | Metric | Value |
 | --- | ---: |
-| SOL price | $75.13 |
-| SOL 24h change | -0.51% |
-| Solana TVL | $4.8B |
-| Stablecoin supply | $15.33B |
-| DEX volume, 24h | $1.17B |
-| Real Economic Value, 24h | $674.83K |
+| SOL price | $75.09 |
+| SOL 24h change | -0.33% |
+| Solana TVL | $4.78B |
+| Stablecoin supply | $15.35B |
+| DEX volume, 24h | $1.05B |
+| Real Economic Value, 24h | $547.08K |
 | RWA TVL | $1.87B |
-| Tokenized equities TVL proxy | $384.36M |
+| Tokenized equities TVL proxy | $383.35M |
 
 ## Network
 
 | Metric | Value |
 | --- | ---: |
 | Health | ok |
-| Total TPS | 3,572.97 |
-| Non-vote TPS | 1,921.27 |
-| Average slot time | 415 ms |
-| Slot | 439,696,435 |
-| Block height | 417,747,017 |
+| Total TPS | 3,190.33 |
+| Non-vote TPS | 1,534.72 |
+| Average slot time | 413 ms |
+| Slot | 439,758,330 |
+| Block height | 417,808,887 |
 | Epoch | 1,017 |
-| Epoch progress | 81.58% |
-| Median sampled transaction fee | 5,000 lamports |
+| Epoch progress | 95.91% |
+| Median sampled transaction fee | 5,001 lamports |
 
 ## Validators
 
@@ -62,24 +62,25 @@ No configured anomaly threshold was breached.
 
 | Protocol | Category | Solana TVL | 24h |
 | --- | --- | ---: | ---: |
-| [Sanctum Validator LSTs](https://www.sanctum.so) | Liquid Staking | $1.13B | 0.02% |
-| [Kamino Lend](https://kamino.com/) | Lending | $1.04B | -0.55% |
-| [Jupiter Lend](https://jup.ag/?ref=f6y1ryr2snn3) | Lending | $927.83M | 0.02% |
-| [Raydium AMM](https://raydium.io) | Dexs | $843.39M | 0.39% |
-| [Binance Staked SOL](https://www.binance.com/en/solana-staking) | Liquid Staking | $767.89M | 0.03% |
-| [Jito Liquid Staking](https://jito.network) | Liquid Staking | $755.22M | 0.14% |
-| [BlackRock BUIDL](https://securitize.io/) | RWA | $740.96M | 0.00% |
-| [Jupiter Perpetual Exchange](https://jup.ag/?ref=f6y1ryr2snn3) | Derivatives | $680.99M | -0.34% |
-| [Solstice](https://solstice.finance/) | Basis Trading | $505.85M | -0.06% |
-| [Jupiter Staked SOL](https://jup.ag/?ref=f6y1ryr2snn3) | Liquid Staking | $391.77M | 0.07% |
-| [xStocks](https://defi.xstocks.fi) | RWA | $384.36M | 1.14% |
-| [Sentora](https://sentora.com/) | Risk Curators | $367.73M | 0.34% |
-| [OnRe](https://app.onre.finance) | RWA | $262.11M | 0.30% |
-| [PumpSwap](https://swap.pump.fun) | Dexs | $248.52M | -0.92% |
-| [Orca DEX](https://www.orca.so) | Dexs | $239.83M | -0.15% |
+| [Sanctum Validator LSTs](https://www.sanctum.so) | Liquid Staking | $1.11B | -1.38% |
+| [Kamino Lend](https://kamino.com/) | Lending | $1.04B | -0.47% |
+| [Jupiter Lend](https://jup.ag/?ref=f6y1ryr2snn3) | Lending | $921.27M | -0.71% |
+| [Raydium AMM](https://raydium.io) | Dexs | $835.16M | -1.28% |
+| [Binance Staked SOL](https://www.binance.com/en/solana-staking) | Liquid Staking | $758.96M | -1.31% |
+| [Jito Liquid Staking](https://jito.network) | Liquid Staking | $745.18M | -1.02% |
+| [BlackRock BUIDL](https://securitize.io/) | RWA | $740.96M | -0.00% |
+| [Jupiter Perpetual Exchange](https://jup.ag/?ref=f6y1ryr2snn3) | Derivatives | $673.17M | -1.34% |
+| [Solstice](https://solstice.finance/) | Basis Trading | $505.92M | -0.03% |
+| [Jupiter Staked SOL](https://jup.ag/?ref=f6y1ryr2snn3) | Liquid Staking | $386.95M | -0.96% |
+| [xStocks](https://defi.xstocks.fi) | RWA | $383.35M | 0.12% |
+| [Sentora](https://sentora.com/) | Risk Curators | $367.32M | 0.07% |
+| [OnRe](https://app.onre.finance) | RWA | $262.31M | 0.37% |
+| [PumpSwap](https://swap.pump.fun) | Dexs | $250.95M | 0.09% |
+| [Orca DEX](https://www.orca.so) | Dexs | $239.75M | -0.31% |
 
 ## Ecosystem news
 
+- [Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off) · Ecosystem · 2026-08-17
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026) · Ecosystem · 2026-08-13
 - [Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap) · Ecosystem · 2026-08-12
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps) · Ecosystem · 2026-08-11
@@ -87,7 +88,6 @@ No configured anomaly threshold was breached.
 - [Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments) · Ecosystem · 2026-08-05
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026) · Ecosystem · 2026-08-05
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle) · Ecosystem · 2026-08-04
-- [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles) · Ecosystem · 2026-07-31
 
 ## Upgrades
 
@@ -98,11 +98,11 @@ No configured anomaly threshold was breached.
 
 | Source | State | Fetched |
 | --- | --- | --- |
-| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | ok | 2026-08-16T18:49:48.920Z |
-| [CoinGecko keyless API](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true) | ok | 2026-08-16T18:49:42.268Z |
-| [DeFiLlama TVL, stablecoins, volumes and fees](https://api.llama.fi/v2/historicalChainTvl/Solana) | ok | 2026-08-16T18:49:42.444Z |
-| [Solana official news RSS](https://solana.com/news/rss.xml) | ok | 2026-08-16T18:49:42.352Z |
-| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md) | ok | 2026-08-16T18:49:42.316Z |
+| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | ok | 2026-08-17T01:58:08.176Z |
+| [CoinGecko keyless API](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true) | ok | 2026-08-17T01:58:01.276Z |
+| [DeFiLlama TVL, stablecoins, volumes and fees](https://api.llama.fi/v2/historicalChainTvl/Solana) | ok | 2026-08-17T01:58:01.482Z |
+| [Solana official news RSS](https://solana.com/news/rss.xml) | ok | 2026-08-17T01:58:01.356Z |
+| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md) | ok | 2026-08-17T01:58:01.378Z |
 
 ## Known limitations
 
