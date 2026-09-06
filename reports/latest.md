@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated: 2026-09-06T04:47:09.747Z
+Generated: 2026-09-06T11:04:11.906Z
 
 Overall collector state: **OK**
 
@@ -8,10 +8,10 @@ Overall collector state: **OK**
 
 | Metric | Value |
 | --- | ---: |
-| SOL price | $106.01 |
-| SOL 24h change | 4.14% |
+| SOL price | $106.55 |
+| SOL 24h change | 3.93% |
 | Solana TVL | $5.92B |
-| Stablecoin supply | $16.33B |
+| Stablecoin supply | $16.31B |
 | DEX volume, 24h | $1.96B |
 | Real Economic Value, 24h | $442.16K |
 | RWA TVL | $2.36B |
@@ -22,13 +22,13 @@ Overall collector state: **OK**
 | Metric | Value |
 | --- | ---: |
 | Health | ok |
-| Total TPS | 3,510.07 |
-| Non-vote TPS | 1,376.85 |
+| Total TPS | 3,320 |
+| Non-vote TPS | 1,220.72 |
 | Average slot time | 316 ms |
-| Slot | 444,705,341 |
-| Block height | 422,749,728 |
+| Slot | 444,776,767 |
+| Block height | 422,821,129 |
 | Epoch | 1,029 |
-| Epoch progress | 41.05% |
+| Epoch progress | 57.58% |
 | Median sampled transaction fee | 5,000 lamports |
 
 ## Validators
@@ -98,11 +98,11 @@ No configured anomaly threshold was breached.
 
 | Source | State | Fetched |
 | --- | --- | --- |
-| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | ok | 2026-09-06T04:47:09.747Z |
-| [CoinGecko keyless API](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true) | ok | 2026-09-06T04:47:03.728Z |
-| [DeFiLlama TVL, stablecoins, volumes and fees](https://api.llama.fi/v2/historicalChainTvl/Solana) | ok | 2026-09-06T04:47:03.992Z |
-| [Solana official news RSS](https://solana.com/news/rss.xml) | ok | 2026-09-06T04:47:03.750Z |
-| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md) | ok | 2026-09-06T04:47:03.818Z |
+| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | ok | 2026-09-06T11:04:11.906Z |
+| [CoinGecko keyless API](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true) | ok | 2026-09-06T11:04:04.720Z |
+| [DeFiLlama TVL, stablecoins, volumes and fees](https://api.llama.fi/v2/historicalChainTvl/Solana) | ok | 2026-09-06T11:04:05.031Z |
+| [Solana official news RSS](https://solana.com/news/rss.xml) | ok | 2026-09-06T11:04:04.881Z |
+| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md) | ok | 2026-09-06T11:04:04.723Z |
 
 ## Known limitations
 
