@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated: 2026-09-06T20:29:00.295Z
+Generated: 2026-09-07T04:50:47.691Z
 
 Overall collector state: **OK**
 
@@ -8,10 +8,10 @@ Overall collector state: **OK**
 
 | Metric | Value |
 | --- | ---: |
-| SOL price | $105.63 |
-| SOL 24h change | 2.23% |
+| SOL price | $105.16 |
+| SOL 24h change | -1.00% |
 | Solana TVL | $5.92B |
-| Stablecoin supply | $16.35B |
+| Stablecoin supply | $16.38B |
 | DEX volume, 24h | $1.96B |
 | Real Economic Value, 24h | $442.16K |
 | RWA TVL | $2.36B |
@@ -22,37 +22,37 @@ Overall collector state: **OK**
 | Metric | Value |
 | --- | ---: |
 | Health | ok |
-| Total TPS | 3,764.28 |
-| Non-vote TPS | 1,644.6 |
-| Average slot time | 317 ms |
-| Slot | 444,883,626 |
-| Block height | 422,927,943 |
-| Epoch | 1,029 |
-| Epoch progress | 82.32% |
+| Total TPS | 3,509.93 |
+| Non-vote TPS | 1,368.17 |
+| Average slot time | 316 ms |
+| Slot | 444,978,595 |
+| Block height | 423,022,873 |
+| Epoch | 1,030 |
+| Epoch progress | 4.30% |
 | Median sampled transaction fee | 5,000 lamports |
 
 ## Validators
 
-- Active: 676
-- Delinquent: 17
-- Delinquent stake: 0.02%
-- Top 10 stake concentration: 24.27%
+- Active: 677
+- Delinquent: 11
+- Delinquent stake: 0.01%
+- Top 10 stake concentration: 24.19%
 - Validators forming one-third of active stake: 18
 
 | Rank | Vote account | Stake | Share | Commission |
 | ---: | --- | ---: | ---: | ---: |
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,421,941.14 SOL | 3.97% | 7.00% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,321,581.27 SOL | 3.72% | 0.00% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,507,097.45 SOL | 2.85% | 0.00% |
-| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,374,756.22 SOL | 2.59% | 5.00% |
-| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,561,891.63 SOL | 2.18% | 0.00% |
-| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,268,042.13 SOL | 2.11% | 7.00% |
-| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,037,668.01 SOL | 2.06% | 10.00% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,352,603.52 SOL | 1.67% | 7.00% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 7,128,760.85 SOL | 1.62% | 5.00% |
-| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,594,605.81 SOL | 1.50% | 0.00% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,438,540.52 SOL | 3.97% | 7.00% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 16,336,963.68 SOL | 3.72% | 0.00% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,517,399.06 SOL | 2.85% | 0.00% |
+| 4 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 11,397,824.23 SOL | 2.59% | 5.00% |
+| 5 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 9,564,411.53 SOL | 2.18% | 0.00% |
+| 6 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,181,909.19 SOL | 2.09% | 7.00% |
+| 7 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,038,443.43 SOL | 2.06% | 10.00% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,384,460.72 SOL | 1.68% | 7.00% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,858,928.88 SOL | 1.56% | 5.00% |
+| 10 | `DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a` | 6,595,420.72 SOL | 1.50% | 0.00% |
 | 11 | `HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc` | 6,122,616.98 SOL | 1.39% | 100.00% |
-| 12 | `3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf` | 6,120,562.79 SOL | 1.39% | 0.00% |
+| 12 | `3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf` | 6,122,046.48 SOL | 1.39% | 0.00% |
 
 ## Anomalies
 
@@ -98,11 +98,11 @@ No configured anomaly threshold was breached.
 
 | Source | State | Fetched |
 | --- | --- | --- |
-| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | ok | 2026-09-06T20:29:00.295Z |
-| [CoinGecko keyless API](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true) | ok | 2026-09-06T20:28:53.941Z |
-| [DeFiLlama TVL, stablecoins, volumes and fees](https://api.llama.fi/v2/historicalChainTvl/Solana) | ok | 2026-09-06T20:28:54.117Z |
-| [Solana official news RSS](https://solana.com/news/rss.xml) | ok | 2026-09-06T20:28:53.968Z |
-| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md) | ok | 2026-09-06T20:28:53.945Z |
+| [Solana JSON-RPC](https://api.mainnet-beta.solana.com) | ok | 2026-09-07T04:50:47.690Z |
+| [CoinGecko keyless API](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true) | ok | 2026-09-07T04:50:41.093Z |
+| [DeFiLlama TVL, stablecoins, volumes and fees](https://api.llama.fi/v2/historicalChainTvl/Solana) | ok | 2026-09-07T04:50:41.303Z |
+| [Solana official news RSS](https://solana.com/news/rss.xml) | ok | 2026-09-07T04:50:41.166Z |
+| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md) | ok | 2026-09-07T04:50:41.171Z |
 
 ## Known limitations
 
