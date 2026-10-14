@@ -1,0 +1,962 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "generatedAt": "2026-10-14T17:18:21.870Z",
+    "refreshIntervalSeconds": 60,
+    "buildDurationMs": 7839,
+    "overallState": "degraded"
+  },
+  "network": {
+    "health": "ok",
+    "slot": 456918491,
+    "blockHeight": 434954706,
+    "transactionCount": 560105291799,
+    "totalTps": 5144.43,
+    "nonVoteTps": 2076.67,
+    "slotTimeMs": 216.41,
+    "epoch": 1057,
+    "epochProgressPct": 68.17,
+    "slotsRemaining": 137509,
+    "medianTransactionFeeLamports": null,
+    "medianPriorityFeeMicroLamports": 0,
+    "circulatingSupplySol": 589212624.56,
+    "totalSupplySol": 635782664.9,
+    "sampledActiveSigners": null,
+    "sampleWindowSlots": 3327
+  },
+  "validators": {
+    "activeCount": 673,
+    "delinquentCount": 5,
+    "delinquentStakePct": 0.001,
+    "activeStakeSol": 438125279.53,
+    "delinquentStakeSol": 6032.21,
+    "top10StakePct": 24.59,
+    "superminorityValidatorCount": 18,
+    "weightedCommissionPct": 26.66,
+    "top": [
+      {
+        "voteAccount": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
+        "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+        "stakeSol": 17794097.35,
+        "stakeSharePct": 4.061,
+        "commissionPct": 7,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
+        "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+        "stakeSol": 15830159.7,
+        "stakeSharePct": 3.613,
+        "commissionPct": 0,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+        "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+        "stakeSol": 12313026.65,
+        "stakeSharePct": 2.81,
+        "commissionPct": 0,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
+        "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+        "stakeSol": 11142983.96,
+        "stakeSharePct": 2.543,
+        "commissionPct": 0,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+        "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+        "stakeSol": 10763192.27,
+        "stakeSharePct": 2.457,
+        "commissionPct": 5,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
+        "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+        "stakeSol": 9407225.08,
+        "stakeSharePct": 2.147,
+        "commissionPct": 10,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
+        "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+        "stakeSol": 9240433.63,
+        "stakeSharePct": 2.109,
+        "commissionPct": 7,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
+        "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+        "stakeSol": 7700930.91,
+        "stakeSharePct": 1.758,
+        "commissionPct": 7,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+        "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+        "stakeSol": 6906931.44,
+        "stakeSharePct": 1.576,
+        "commissionPct": 5,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf",
+        "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+        "stakeSol": 6638867.71,
+        "stakeSharePct": 1.515,
+        "commissionPct": 0,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
+        "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+        "stakeSol": 6409573.26,
+        "stakeSharePct": 1.463,
+        "commissionPct": 0,
+        "lastVote": 456918490,
+        "delinquent": false
+      },
+      {
+        "voteAccount": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+        "identity": "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+        "stakeSol": 5958303.41,
+        "stakeSharePct": 1.36,
+        "commissionPct": 5,
+        "lastVote": 456918490,
+        "delinquent": false
+      }
+    ]
+  },
+  "market": {
+    "solPriceUsd": 104.95,
+    "solChange24hPct": -2.296233446625883,
+    "solMarketCapUsd": 61845177530.385376,
+    "solVolume24hUsd": 3200846018.368809,
+    "tvlUsd": 5957683209.833172,
+    "tvlChange1dPct": -1.02,
+    "stablecoinSupplyUsd": 15743878807.336031,
+    "dexVolume24hUsd": 2495170004.38,
+    "dexChange1dPct": 11.8,
+    "ecosystemFees24hUsd": 11775288.160000004,
+    "networkFees24hUsd": 790543,
+    "mevTips24hUsd": 210223,
+    "realEconomicValue24hUsd": 1000766,
+    "rwaTvlUsd": 579684816.72,
+    "tokenizedEquitiesTvlUsd": null
+  },
+  "ecosystem": {
+    "topProtocols": [
+      {
+        "name": "Sanctum Validator LSTs",
+        "category": "Liquid Staking",
+        "tvlUsd": 1754987606.3086529,
+        "change1dPct": -1.7289795066608065,
+        "change7dPct": -8.3112470245228,
+        "url": "https://www.sanctum.so"
+      },
+      {
+        "name": "Kamino Lend",
+        "category": "Lending",
+        "tvlUsd": 1309034807.7038782,
+        "change1dPct": -0.023778478733717634,
+        "change7dPct": -3.8360674169888114,
+        "url": "https://kamino.com/"
+      },
+      {
+        "name": "Raydium AMM",
+        "category": "Dexs",
+        "tvlUsd": 1178746807.167459,
+        "change1dPct": -2.9402678055510876,
+        "change7dPct": -9.327080644759306,
+        "url": "https://raydium.io"
+      },
+      {
+        "name": "Jupiter Lend",
+        "category": "Lending",
+        "tvlUsd": 1084514817.4391134,
+        "change1dPct": -2.6452491889435663,
+        "change7dPct": -10.708174643055273,
+        "url": "https://jup.ag/?ref=f6y1ryr2snn3"
+      },
+      {
+        "name": "Jito Liquid Staking",
+        "category": "Liquid Staking",
+        "tvlUsd": 1084423973.784761,
+        "change1dPct": -2.936545205606194,
+        "change7dPct": -10.607667797715635,
+        "url": "https://jito.network"
+      },
+      {
+        "name": "Binance Staked SOL",
+        "category": "Liquid Staking",
+        "tvlUsd": 1064770589.6855859,
+        "change1dPct": -1.9944368696297232,
+        "change7dPct": -10.950085554943044,
+        "url": "https://www.binance.com/en/solana-staking"
+      },
+      {
+        "name": "Jupiter Perpetual Exchange",
+        "category": "Derivatives",
+        "tvlUsd": 736406821.6583054,
+        "change1dPct": -2.0283608064109018,
+        "change7dPct": -6.891772234466458,
+        "url": "https://jup.ag/?ref=f6y1ryr2snn3"
+      },
+      {
+        "name": "Jupiter Staked SOL",
+        "category": "Liquid Staking",
+        "tvlUsd": 542914910.7565877,
+        "change1dPct": -1.8146984266753492,
+        "change7dPct": -10.107830426549256,
+        "url": "https://jup.ag/?ref=f6y1ryr2snn3"
+      },
+      {
+        "name": "Sentora Curator",
+        "category": "Risk Curators",
+        "tvlUsd": 467036475.22223544,
+        "change1dPct": -1.112437252102822,
+        "change7dPct": -0.11345563038675266,
+        "url": "https://sentora.com/"
+      },
+      {
+        "name": "Marinade Native",
+        "category": "Staking Pool",
+        "tvlUsd": 381019843.9472233,
+        "change1dPct": -2.5859093327554774,
+        "change7dPct": -12.275520739249941,
+        "url": "https://app.marinade.finance/"
+      },
+      {
+        "name": "PumpSwap",
+        "category": "Dexs",
+        "tvlUsd": 359684482.0825556,
+        "change1dPct": -0.6847634701802718,
+        "change7dPct": -8.78362114301764,
+        "url": "https://swap.pump.fun"
+      },
+      {
+        "name": "Orca DEX",
+        "category": "Dexs",
+        "tvlUsd": 301194847.22343004,
+        "change1dPct": -0.45080394358392084,
+        "change7dPct": -6.162220737310491,
+        "url": "https://www.orca.so"
+      },
+      {
+        "name": "OnRe",
+        "category": "RWA",
+        "tvlUsd": 292849556.7269442,
+        "change1dPct": 0.09732421172937222,
+        "change7dPct": -0.07245965340825933,
+        "url": "https://app.onre.finance"
+      },
+      {
+        "name": "Drift Staked SOL",
+        "category": "Liquid Staking",
+        "tvlUsd": 289984341.91432726,
+        "change1dPct": -1.9088717927114232,
+        "change7dPct": -11.728282013419303,
+        "url": "https://app.drift.trade"
+      },
+      {
+        "name": "CCIP",
+        "category": "Bridge",
+        "tvlUsd": 251170988.52522352,
+        "change1dPct": -2.0087241586264497,
+        "change7dPct": 1.768372982255002,
+        "url": "https://chain.link/cross-chain"
+      }
+    ],
+    "rwaProtocols": [
+      {
+        "name": "OnRe",
+        "category": "RWA",
+        "tvlUsd": 292849556.7269442,
+        "change1dPct": 0.09732421172937222,
+        "change7dPct": -0.07245965340825933,
+        "url": "https://app.onre.finance"
+      },
+      {
+        "name": "Huma",
+        "category": "RWA",
+        "tvlUsd": 243073331.940537,
+        "change1dPct": -2.11675057317818,
+        "change7dPct": -3.172372140850541,
+        "url": "https://app.huma.finance"
+      },
+      {
+        "name": "Plume Vaults",
+        "category": "RWA",
+        "tvlUsd": 33827905.87286033,
+        "change1dPct": 0.42210033898091126,
+        "change7dPct": 2.6859593273382387,
+        "url": "https://app.plume.org/vaults"
+      },
+      {
+        "name": "Mansory",
+        "category": "RWA",
+        "tvlUsd": 2748126.821826939,
+        "change1dPct": -1.2032645627974432,
+        "change7dPct": -7.379411779660302,
+        "url": "https://www.mansory.com/"
+      },
+      {
+        "name": "International Stable Currency",
+        "category": "RWA",
+        "tvlUsd": 2412373.819276447,
+        "change1dPct": -0.6247711350603709,
+        "change7dPct": 0.0752722769596943,
+        "url": "https://www.isc.money"
+      },
+      {
+        "name": "Oro Finance",
+        "category": "RWA",
+        "tvlUsd": 2381108.6661162735,
+        "change1dPct": -1.5498571916199921,
+        "change7dPct": 0.23704337848712953,
+        "url": "https://app.oro.finance/"
+      },
+      {
+        "name": "Byzanlink RWA Markets",
+        "category": "RWA",
+        "tvlUsd": 896196.2535999821,
+        "change1dPct": -0.00450371962355689,
+        "change7dPct": 0.14342893371816956,
+        "url": "https://markets.byzanlink.com"
+      },
+      {
+        "name": "KAIO",
+        "category": "RWA",
+        "tvlUsd": 774452.0534410735,
+        "change1dPct": -0.007417282314079898,
+        "change7dPct": -0.008742947495264275,
+        "url": "https://www.kaio.xyz/"
+      },
+      {
+        "name": "Solayer USD",
+        "category": "RWA",
+        "tvlUsd": 671623.1142507971,
+        "change1dPct": -0.3702879869021132,
+        "change7dPct": -0.7551494065330644,
+        "url": "https://solayer.org"
+      },
+      {
+        "name": "Credible Finance",
+        "category": "RWA",
+        "tvlUsd": 39015.55791642176,
+        "change1dPct": -71.91067348429974,
+        "change7dPct": -90.39334587976687,
+        "url": "https://credible.finance/"
+      },
+      {
+        "name": "TruCore",
+        "category": "RWA",
+        "tvlUsd": 11124.891083874902,
+        "change1dPct": -0.010097853558505676,
+        "change7dPct": 0.04785921942973914,
+        "url": "https://app.truyields.com"
+      },
+      {
+        "name": "Credix",
+        "category": "RWA",
+        "tvlUsd": 0.9998911884431833,
+        "change1dPct": -0.013364517338473547,
+        "change7dPct": -0.1272821221132716,
+        "url": "https://credix.finance"
+      }
+    ],
+    "news": [
+      {
+        "title": "Payments on Solana: September 2026 in Five Stories",
+        "url": "https://solana.com/news/payments-on-solana-september-2026-in-five-stories",
+        "publishedAt": "2026-10-09T12:46:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)",
+        "url": "https://solana.com/news/breakpoint-guide-part2",
+        "publishedAt": "2026-10-08T18:18:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Solana Changelog: October 8, 2026",
+        "url": "https://solana.com/news/solana-changelog-october-8-2026",
+        "publishedAt": "2026-10-08T08:33:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices",
+        "url": "https://solana.com/news/samsung-wallet",
+        "publishedAt": "2026-10-07T23:30:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Solana Ecosystem Roundup: September 2026",
+        "url": "https://solana.com/news/solana-ecosystem-roundup-september-2026",
+        "publishedAt": "2026-10-06T19:38:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions",
+        "url": "https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions",
+        "publishedAt": "2026-10-06T02:00:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Introducing Solana Microscope: Program Monitoring and Alerts",
+        "url": "https://solana.com/news/solana-microscope",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "category": "Ecosystem"
+      },
+      {
+        "title": "Solana x AI: The Democratization Layer",
+        "url": "https://solana.com/news/solana-ai-the-democratization-layer",
+        "publishedAt": "2026-10-02T19:30:00.000Z",
+        "category": "Ecosystem"
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "SIMD-0326",
+        "title": "Alpenglow",
+        "status": "Review",
+        "summary": "Votor and Rotor redesign consensus and block propagation to target faster finality.",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md",
+        "updatedAt": "2025-07-25"
+      },
+      {
+        "id": "SIMD-0525",
+        "title": "Reduce Slot Times",
+        "status": "Draft",
+        "summary": "Proposes staged reductions from 400 ms slots toward a 200 ms target.",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0525-reduce-slot-times.md",
+        "updatedAt": "2026-05-01"
+      }
+    ]
+  },
+  "history": {
+    "tvl": [
+      {
+        "timestamp": 1784246400,
+        "date": "2026-07-17",
+        "tvlUsd": 4828913438
+      },
+      {
+        "timestamp": 1784332800,
+        "date": "2026-07-18",
+        "tvlUsd": 4806538184
+      },
+      {
+        "timestamp": 1784419200,
+        "date": "2026-07-19",
+        "tvlUsd": 4851093496
+      },
+      {
+        "timestamp": 1784505600,
+        "date": "2026-07-20",
+        "tvlUsd": 4853820815
+      },
+      {
+        "timestamp": 1784592000,
+        "date": "2026-07-21",
+        "tvlUsd": 4956236249
+      },
+      {
+        "timestamp": 1784678400,
+        "date": "2026-07-22",
+        "tvlUsd": 4976106718
+      },
+      {
+        "timestamp": 1784764800,
+        "date": "2026-07-23",
+        "tvlUsd": 4953032602
+      },
+      {
+        "timestamp": 1784851200,
+        "date": "2026-07-24",
+        "tvlUsd": 4909464102
+      },
+      {
+        "timestamp": 1784937600,
+        "date": "2026-07-25",
+        "tvlUsd": 4774280979
+      },
+      {
+        "timestamp": 1785024000,
+        "date": "2026-07-26",
+        "tvlUsd": 4824834374
+      },
+      {
+        "timestamp": 1785110400,
+        "date": "2026-07-27",
+        "tvlUsd": 4903996653
+      },
+      {
+        "timestamp": 1785196800,
+        "date": "2026-07-28",
+        "tvlUsd": 4800328558
+      },
+      {
+        "timestamp": 1785283200,
+        "date": "2026-07-29",
+        "tvlUsd": 4776208066
+      },
+      {
+        "timestamp": 1785369600,
+        "date": "2026-07-30",
+        "tvlUsd": 4779988972
+      },
+      {
+        "timestamp": 1785456000,
+        "date": "2026-07-31",
+        "tvlUsd": 4810153587
+      },
+      {
+        "timestamp": 1785542400,
+        "date": "2026-08-01",
+        "tvlUsd": 4735869971
+      },
+      {
+        "timestamp": 1785628800,
+        "date": "2026-08-02",
+        "tvlUsd": 4704328518
+      },
+      {
+        "timestamp": 1785715200,
+        "date": "2026-08-03",
+        "tvlUsd": 4727528242
+      },
+      {
+        "timestamp": 1785801600,
+        "date": "2026-08-04",
+        "tvlUsd": 4750038425
+      },
+      {
+        "timestamp": 1785888000,
+        "date": "2026-08-05",
+        "tvlUsd": 4790469307
+      },
+      {
+        "timestamp": 1785974400,
+        "date": "2026-08-06",
+        "tvlUsd": 4790746268
+      },
+      {
+        "timestamp": 1786060800,
+        "date": "2026-08-07",
+        "tvlUsd": 4707551063
+      },
+      {
+        "timestamp": 1786147200,
+        "date": "2026-08-08",
+        "tvlUsd": 4734146238
+      },
+      {
+        "timestamp": 1786233600,
+        "date": "2026-08-09",
+        "tvlUsd": 4793619119
+      },
+      {
+        "timestamp": 1786320000,
+        "date": "2026-08-10",
+        "tvlUsd": 4838846670
+      },
+      {
+        "timestamp": 1786406400,
+        "date": "2026-08-11",
+        "tvlUsd": 4824009392
+      },
+      {
+        "timestamp": 1786492800,
+        "date": "2026-08-12",
+        "tvlUsd": 4848436551
+      },
+      {
+        "timestamp": 1786579200,
+        "date": "2026-08-13",
+        "tvlUsd": 4808400763
+      },
+      {
+        "timestamp": 1786665600,
+        "date": "2026-08-14",
+        "tvlUsd": 4822436134
+      },
+      {
+        "timestamp": 1786752000,
+        "date": "2026-08-15",
+        "tvlUsd": 4801982209
+      },
+      {
+        "timestamp": 1786838400,
+        "date": "2026-08-16",
+        "tvlUsd": 4794263456
+      },
+      {
+        "timestamp": 1786924800,
+        "date": "2026-08-17",
+        "tvlUsd": 4762461075
+      },
+      {
+        "timestamp": 1787011200,
+        "date": "2026-08-18",
+        "tvlUsd": 4835216394
+      },
+      {
+        "timestamp": 1787097600,
+        "date": "2026-08-19",
+        "tvlUsd": 4881865300
+      },
+      {
+        "timestamp": 1787184000,
+        "date": "2026-08-20",
+        "tvlUsd": 5211367104
+      },
+      {
+        "timestamp": 1787270400,
+        "date": "2026-08-21",
+        "tvlUsd": 5317322606
+      },
+      {
+        "timestamp": 1787356800,
+        "date": "2026-08-22",
+        "tvlUsd": 5537144815
+      },
+      {
+        "timestamp": 1787443200,
+        "date": "2026-08-23",
+        "tvlUsd": 5542932616
+      },
+      {
+        "timestamp": 1787529600,
+        "date": "2026-08-24",
+        "tvlUsd": 5546854924
+      },
+      {
+        "timestamp": 1787616000,
+        "date": "2026-08-25",
+        "tvlUsd": 5722819461
+      },
+      {
+        "timestamp": 1787702400,
+        "date": "2026-08-26",
+        "tvlUsd": 5591915769
+      },
+      {
+        "timestamp": 1787788800,
+        "date": "2026-08-27",
+        "tvlUsd": 5759466063
+      },
+      {
+        "timestamp": 1787875200,
+        "date": "2026-08-28",
+        "tvlUsd": 5998945770
+      },
+      {
+        "timestamp": 1787961600,
+        "date": "2026-08-29",
+        "tvlUsd": 5855308883
+      },
+      {
+        "timestamp": 1788048000,
+        "date": "2026-08-30",
+        "tvlUsd": 5896929399
+      },
+      {
+        "timestamp": 1788134400,
+        "date": "2026-08-31",
+        "tvlUsd": 5773406485
+      },
+      {
+        "timestamp": 1788220800,
+        "date": "2026-09-01",
+        "tvlUsd": 5970549565
+      },
+      {
+        "timestamp": 1788307200,
+        "date": "2026-09-02",
+        "tvlUsd": 5633696537
+      },
+      {
+        "timestamp": 1788393600,
+        "date": "2026-09-03",
+        "tvlUsd": 5687049221
+      },
+      {
+        "timestamp": 1788480000,
+        "date": "2026-09-04",
+        "tvlUsd": 5905398523
+      },
+      {
+        "timestamp": 1788566400,
+        "date": "2026-09-05",
+        "tvlUsd": 5845684148
+      },
+      {
+        "timestamp": 1788652800,
+        "date": "2026-09-06",
+        "tvlUsd": 5892852755
+      },
+      {
+        "timestamp": 1788739200,
+        "date": "2026-09-07",
+        "tvlUsd": 5979177291
+      },
+      {
+        "timestamp": 1788825600,
+        "date": "2026-09-08",
+        "tvlUsd": 5897779999
+      },
+      {
+        "timestamp": 1788912000,
+        "date": "2026-09-09",
+        "tvlUsd": 5929208972
+      },
+      {
+        "timestamp": 1788998400,
+        "date": "2026-09-10",
+        "tvlUsd": 5831775757
+      },
+      {
+        "timestamp": 1789084800,
+        "date": "2026-09-11",
+        "tvlUsd": 5725994984
+      },
+      {
+        "timestamp": 1789171200,
+        "date": "2026-09-12",
+        "tvlUsd": 5874347839
+      },
+      {
+        "timestamp": 1789257600,
+        "date": "2026-09-13",
+        "tvlUsd": 5881168035
+      },
+      {
+        "timestamp": 1789344000,
+        "date": "2026-09-14",
+        "tvlUsd": 5810382375
+      },
+      {
+        "timestamp": 1789430400,
+        "date": "2026-09-15",
+        "tvlUsd": 5893308585
+      },
+      {
+        "timestamp": 1789516800,
+        "date": "2026-09-16",
+        "tvlUsd": 5699476330
+      },
+      {
+        "timestamp": 1789603200,
+        "date": "2026-09-17",
+        "tvlUsd": 5756866204
+      },
+      {
+        "timestamp": 1789689600,
+        "date": "2026-09-18",
+        "tvlUsd": 5871750495
+      },
+      {
+        "timestamp": 1789776000,
+        "date": "2026-09-19",
+        "tvlUsd": 6280272571
+      },
+      {
+        "timestamp": 1789862400,
+        "date": "2026-09-20",
+        "tvlUsd": 6150861939
+      },
+      {
+        "timestamp": 1789948800,
+        "date": "2026-09-21",
+        "tvlUsd": 6180440685
+      },
+      {
+        "timestamp": 1790035200,
+        "date": "2026-09-22",
+        "tvlUsd": 6433710499
+      },
+      {
+        "timestamp": 1790121600,
+        "date": "2026-09-23",
+        "tvlUsd": 6502389802
+      },
+      {
+        "timestamp": 1790208000,
+        "date": "2026-09-24",
+        "tvlUsd": 6365137105
+      },
+      {
+        "timestamp": 1790294400,
+        "date": "2026-09-25",
+        "tvlUsd": 6455922797
+      },
+      {
+        "timestamp": 1790380800,
+        "date": "2026-09-26",
+        "tvlUsd": 6606805959
+      },
+      {
+        "timestamp": 1790467200,
+        "date": "2026-09-27",
+        "tvlUsd": 6595088785
+      },
+      {
+        "timestamp": 1790553600,
+        "date": "2026-09-28",
+        "tvlUsd": 6609100312
+      },
+      {
+        "timestamp": 1790640000,
+        "date": "2026-09-29",
+        "tvlUsd": 6427470080
+      },
+      {
+        "timestamp": 1790726400,
+        "date": "2026-09-30",
+        "tvlUsd": 6484533258
+      },
+      {
+        "timestamp": 1790812800,
+        "date": "2026-10-01",
+        "tvlUsd": 6424788433
+      },
+      {
+        "timestamp": 1790899200,
+        "date": "2026-10-02",
+        "tvlUsd": 6472628215
+      },
+      {
+        "timestamp": 1790985600,
+        "date": "2026-10-03",
+        "tvlUsd": 6501097740
+      },
+      {
+        "timestamp": 1791072000,
+        "date": "2026-10-04",
+        "tvlUsd": 6488973537
+      },
+      {
+        "timestamp": 1791158400,
+        "date": "2026-10-05",
+        "tvlUsd": 6594658084
+      },
+      {
+        "timestamp": 1791244800,
+        "date": "2026-10-06",
+        "tvlUsd": 6577705952
+      },
+      {
+        "timestamp": 1791331200,
+        "date": "2026-10-07",
+        "tvlUsd": 6594912996
+      },
+      {
+        "timestamp": 1791417600,
+        "date": "2026-10-08",
+        "tvlUsd": 6422330155
+      },
+      {
+        "timestamp": 1791504000,
+        "date": "2026-10-09",
+        "tvlUsd": 6178719057
+      },
+      {
+        "timestamp": 1791590400,
+        "date": "2026-10-10",
+        "tvlUsd": 6159558887
+      },
+      {
+        "timestamp": 1791676800,
+        "date": "2026-10-11",
+        "tvlUsd": 6181106784
+      },
+      {
+        "timestamp": 1791763200,
+        "date": "2026-10-12",
+        "tvlUsd": 6223125563
+      },
+      {
+        "timestamp": 1791849600,
+        "date": "2026-10-13",
+        "tvlUsd": 5980034976
+      },
+      {
+        "timestamp": 1791936000,
+        "date": "2026-10-14",
+        "tvlUsd": 5919190172
+      }
+    ]
+  },
+  "anomalies": [],
+  "sources": [
+    {
+      "id": "solana-rpc",
+      "label": "Solana JSON-RPC",
+      "url": "https://api.mainnet-beta.solana.com",
+      "state": "degraded",
+      "fetchedAt": "2026-10-14T17:18:21.870Z",
+      "latencyMs": 7839,
+      "error": "Block fee sample was unavailable"
+    },
+    {
+      "id": "coingecko",
+      "label": "CoinGecko keyless API",
+      "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true",
+      "state": "ok",
+      "fetchedAt": "2026-10-14T17:18:14.167Z",
+      "latencyMs": 136,
+      "error": null
+    },
+    {
+      "id": "defillama",
+      "label": "DeFiLlama TVL, stablecoins, volumes and fees",
+      "url": "https://api.llama.fi/v2/historicalChainTvl/Solana",
+      "state": "ok",
+      "fetchedAt": "2026-10-14T17:18:14.538Z",
+      "latencyMs": 506,
+      "error": null
+    },
+    {
+      "id": "solana-news",
+      "label": "Solana official news RSS",
+      "url": "https://solana.com/news/rss.xml",
+      "state": "ok",
+      "fetchedAt": "2026-10-14T17:18:14.156Z",
+      "latencyMs": 121,
+      "error": null
+    },
+    {
+      "id": "simd",
+      "label": "Solana Improvement Documents",
+      "url": "https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0326-alpenglow.md",
+      "state": "ok",
+      "fetchedAt": "2026-10-14T17:18:14.188Z",
+      "latencyMs": 153,
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Daily active addresses require an indexed transaction dataset. Public RPC cannot calculate a full-day unique count within a low-maintenance request budget, so the report exposes sampled active signers instead.",
+    "Automated Dune extraction and X sentiment require credentials or a licensed data feed. Both remain optional integrations and never block the keyless report.",
+    "Tokenized equity activity uses xStocks TVL as a public proxy. Trade volume by tokenized equity requires a dedicated indexer.",
+    "Validator commission values are current snapshots. Persistent commission-change history requires durable storage or scheduled report archives."
+  ]
+}
